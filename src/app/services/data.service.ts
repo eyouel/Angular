@@ -8,9 +8,7 @@ import { throwError, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 
-@Injectable({
-  providedIn: 'root'
-})
+
 export class DataService {
   
   constructor(private url: string, private http: HttpClient) { }
