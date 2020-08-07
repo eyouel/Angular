@@ -52,7 +52,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   providers: [
     PostService,
     GithubFollowersService
-    ,{ provide: ErrorHandler, useClass: AppErrorHandler }
+    , { provide: ErrorHandler, useClass: AppErrorHandler }
   ],
   bootstrap: [AppComponent]
 })

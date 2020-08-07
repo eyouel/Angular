@@ -12,7 +12,7 @@ export class PostService extends DataService {
  // private url = 'http://jsonplaceholder.typicode.com/posts';
   
   constructor(http: HttpClient) {
-    super('http://jsonplaceholder.typicode.com/posts', http);
+    super('https://jsonplaceholder.typicode.com/posts', http);
    }
   
   
